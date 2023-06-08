@@ -35,13 +35,12 @@ function App() {
             <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
             <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
         </div>
-        <div className="flex items-center justify-center py-2">
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">{count}</span>
-        </div>
+        
 
         <div className="flex items-center justify-between py-4">
          
             <button type='button' className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={inc}>+</button>
+            <span className="text-3xl font-bold text-gray-900 dark:text-white">{count}</span>
             <button type='button' className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={dic}>-</button>
         </div>
 
